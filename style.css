@@ -17,8 +17,43 @@ body {
 
 button {
     margin: 10px;
-    /* padding: 1px; */
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
 }
+
+#btn1{
+    position: relative;
+    left: 44.6vw;
+}
+
+#btn2{
+    position: relative;
+    left: 39.3vw;
+}
+
+#theme{
+    position: relative;
+    left: 43.89vw;
+}
+
+.show-p{
+    display: flex;
+    justify-content: center;
+}
+
+/* .show{
+    position: relative;
+    height: 50vh;
+    width: 57.9vw;
+    top: -28vw;
+    visibility: hidden;
+    z-index: -1;
+    opacity: 0.5;
+} */
 
 .heading {
     text-align: center;

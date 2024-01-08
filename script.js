@@ -8,17 +8,45 @@ btn1.onclick = (evt) => {
     alert("Welcome to our community");
 };
 
+
+
+
 let btn2 = document.querySelector("#btn2");
 btn2.ondblclick = () => {
     window.open("thanks.html", "_blank")
 };
 
 
+let img = document.querySelector(".show");
+// console.log(show);
+// show.style.visibility = "hidden";
+img.style.visibility = "hidden";
+let show = "hidden";
+function showTime() {
+    if (show == "hidden") {
+        show = "visible";
+        img.style.visibility = "visible";
+    }else{
+        show = "hidden";
+        img.style.visibility = "hidden";
+    }
+}
+
+btn2.addEventListener("mouseover", showTime);
+btn2.addEventListener("mouseout", showTime);
+
+// btn2.addEventListener("mouseover", "onmouseout", () => {
+//     show.style.visibility = "visible";
+//     show.style.visibility = "hidden";
+// });
+
+// btn2.addEventListener("onmouseout", () => {});
+
 
 // eventListener()
 btn2.addEventListener("dblclick", () => {
     console.log("Thank you for donating for indeed");
-})
+});
 
 const handler2 = (evt) => {
     console.log(evt);

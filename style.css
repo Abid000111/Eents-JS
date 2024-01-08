@@ -30,30 +30,35 @@ button {
     justify-content: center;
 }
 
-/* #btn1{
-    position: relative;
-    left: 44.6vw;
-} */
+#btn1{
+    background-color: red;
+    color: aliceblue;
+    font-weight: bold;
+    border: 1px solid black;
+}
 
 .btn2-p{
     display: flex;
     justify-content: center;
 }
 
-/* #btn2{
-    position: relative;
-    left: 39.3vw;
-} */
+#btn2{
+    background-color: red;
+    color: aliceblue;
+    font-weight: bold;
+    border: 1px solid black;
+}
 
 .theme-p{
     display: flex;
     justify-content: center;
 }
 
-/* #theme{
-    position: relative;
-    left: 43.89vw;
-} */
+#theme{
+    background-color: aquamarine;
+    border: 1px solid black;
+    font-weight: bold;
+}
 
 .show-p{
     display: flex;

@@ -25,20 +25,35 @@ button {
     border-radius: 20px;
 }
 
-#btn1{
+.btn1-p{
+    display: flex;
+    justify-content: center;
+}
+
+/* #btn1{
     position: relative;
     left: 44.6vw;
+} */
+
+.btn2-p{
+    display: flex;
+    justify-content: center;
 }
 
-#btn2{
+/* #btn2{
     position: relative;
     left: 39.3vw;
+} */
+
+.theme-p{
+    display: flex;
+    justify-content: center;
 }
 
-#theme{
+/* #theme{
     position: relative;
     left: 43.89vw;
-}
+} */
 
 .show-p{
     display: flex;

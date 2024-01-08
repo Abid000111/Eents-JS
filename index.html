@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Events JS</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body class="b-img">
+
+        <div class="heading">
+            <h1>
+                This page is about Events in JS
+            </h1>
+        </div>
+
+        <div>
+            <button id="btn1">
+                Join
+            </button>
+        </div>
+
+        <div>
+            <button id="btn2">
+                Donate for Palestine...!!!<br>
+                <n>click twice to confirm</n>
+            </button>
+            <!-- <a href="thanks.html">
+            </a> -->
+        </div>
+
+        <div>
+            <p>
+                After clicking the button here generates an event and after generating that event through this we can do
+                something and it is we called <n>event handling</n>.
+            </p>
+        </div>
+
+        <div>
+            <ul>
+                <li>
+                    Handling events on HTML file that's we called <n>inline event handling</n>.
+                </li>
+
+                <li>
+                    Inline event handling isn't a good practice.
+                </li>
+
+                <li>
+                    Handle events on JS
+                </li>
+
+                <li>
+                    event handling syntax:
+                    <pre class="code"><code>node.event = () =&gt; {
+    //handle here    
+}</code></pre>
+                </li>
+
+                <li>
+                    If we handled event in two ways: <ol>
+                        <li>inline handle</li>
+                        <li>JS handle</li>
+                    </ol> then the main priority will have JS code not the HTML code.
+                </li>
+
+                <li>
+                    If we handled <b>once an event</b> then we will be not able to handle again the same event. Because
+                    we are able to do everything at once in s single time handling.
+                </li>
+
+                <li>
+                    If we handle the same event twice then the first will be over wrote.
+                </li>
+
+
+                <li>
+                    <n>Event Object is a special object that has details about the event.</n>
+                </li>
+
+                <li>
+                    All event handlers has access to the Event Object properties and method.
+                    <pre class="code"><code>node.event = (e) =&gt; {
+    //handle here    
+}</code></pre><b>e.target, e.type, e.clientX, e.clientY</b>
+                </li>
+            </ul>
+        </div>
+
+        <div id="box" class="box">
+            This box will count how many times you place the mouse on it
+        </div>
+
+        <div>
+            <button id="theme">Theme</button>
+        </div>
+
+
+        <script src="script.js"></script>
+    </body>
+
+</html>

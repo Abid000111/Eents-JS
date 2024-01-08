@@ -25,6 +25,21 @@ button {
     border-radius: 20px;
 }
 
+#btn1:hover{
+    background-color: rgba(212, 8, 8, 0.637);
+    color: aliceblue;
+}
+
+#btn2:hover{
+    background-color: rgba(212, 8, 8, 0.637);
+    color: aliceblue;
+}
+
+#theme:hover{
+    background-color: rgba(86, 167, 140, 0.637);
+    color: white;
+}
+
 .btn1-p{
     display: flex;
     justify-content: center;
@@ -47,6 +62,7 @@ button {
     color: aliceblue;
     font-weight: bold;
     border: 1px solid black;
+    
 }
 
 .theme-p{

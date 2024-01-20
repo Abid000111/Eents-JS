@@ -1,68 +1,67 @@
 body {
-    background-color: black;
-    color: aliceblue;
+	background-color: black;
+	color: aliceblue;
 }
 
-
 .b-img {
-    position: relative;
+	position: relative;
 }
 
 .b-img::before {
-    content: "";
-    display: block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    background: url("b-img4.jpeg");
-    background-size: cover;
-    background-position: center;
-    opacity: 0.3;
-    z-index: -1;
+	content: "";
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	background: url("b-img4.jpeg");
+	background-size: cover;
+	background-position: center;
+	opacity: 0.3;
+	z-index: -1;
 }
 
 .box {
-    border: 8px solid rgb(112, 24, 24);
-    border-radius: 55px;
-    background-color: rgb(255, 44, 44);
-    color: aliceblue;
-    font-size: 57px;
-    font-weight: bold;
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    height: fit-content;
-    width: 70vw;
-    position: relative;
-    top: 55vh;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	border: 8px solid rgb(112, 24, 24);
+	border-radius: 55px;
+	background-color: rgb(255, 44, 44);
+	color: aliceblue;
+	font-size: 57px;
+	font-weight: bold;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: fit-content;
+	width: 70vw;
+	position: relative;
+	top: 55vh;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .div1 {
-    text-align: center;
-    width: 70vw;
-    margin: auto;
-    position: relative;
-    top: 20vh;
+	text-align: center;
+	width: 70vw;
+	margin: auto;
+	position: relative;
+	top: 20vh;
 }
 
-.empty{
-    border: 2px solid white;
-    height: 30vh;
-    width: 70vw;
-    margin: 20px auto;
-    font-size: 5em;
-    font-weight: bold;
-    position: relative;
-    top: 60vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.empty {
+	border: 2px solid white;
+	height: 30vh;
+	width: 70vw;
+	margin: 20px auto;
+	font-size: 5em;
+	font-weight: bold;
+	position: relative;
+	top: 60vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }

@@ -1,84 +1,83 @@
 body {
-    /* margin: 0; */
-    /* padding: 0; */
-    background: black;
-    color: white;
+	/* margin: 0; */
+	/* padding: 0; */
+	background: black;
+	color: white;
 }
 
 .light {
-    background-color: white;
-    color: black;
+	background-color: white;
+	color: black;
 }
 
 .dark {
-    background: black;
-    color: white;
+	background: black;
+	color: white;
 }
 
 button {
-    margin: 10px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border: 1px solid black;
-    border-radius: 20px;
+	margin: 10px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: 1px solid black;
+	border-radius: 20px;
 }
 
-#btn1:hover{
-    background-color: rgba(212, 8, 8, 0.637);
-    color: aliceblue;
+#btn1:hover {
+	background-color: rgba(212, 8, 8, 0.637);
+	color: aliceblue;
 }
 
-#btn2:hover{
-    background-color: rgba(212, 8, 8, 0.637);
-    color: aliceblue;
+#btn2:hover {
+	background-color: rgba(212, 8, 8, 0.637);
+	color: aliceblue;
 }
 
-#theme:hover{
-    background-color: rgba(86, 167, 140, 0.637);
-    color: white;
+#theme:hover {
+	background-color: rgba(86, 167, 140, 0.637);
+	color: white;
 }
 
-.btn1-p{
-    display: flex;
-    justify-content: center;
+.btn1-p {
+	display: flex;
+	justify-content: center;
 }
 
-#btn1{
-    background-color: red;
-    color: aliceblue;
-    font-weight: bold;
-    border: 1px solid black;
+#btn1 {
+	background-color: red;
+	color: aliceblue;
+	font-weight: bold;
+	border: 1px solid black;
 }
 
-.btn2-p{
-    display: flex;
-    justify-content: center;
+.btn2-p {
+	display: flex;
+	justify-content: center;
 }
 
-#btn2{
-    background-color: red;
-    color: aliceblue;
-    font-weight: bold;
-    border: 1px solid black;
-    
+#btn2 {
+	background-color: red;
+	color: aliceblue;
+	font-weight: bold;
+	border: 1px solid black;
 }
 
-.theme-p{
-    display: flex;
-    justify-content: center;
+.theme-p {
+	display: flex;
+	justify-content: center;
 }
 
-#theme{
-    background-color: aquamarine;
-    border: 1px solid black;
-    font-weight: bold;
+#theme {
+	background-color: aquamarine;
+	border: 1px solid black;
+	font-weight: bold;
 }
 
-.show-p{
-    display: flex;
-    justify-content: center;
+.show-p {
+	display: flex;
+	justify-content: center;
 }
 
 /* .show{
@@ -92,74 +91,72 @@ button {
 } */
 
 .heading {
-    text-align: center;
+	text-align: center;
 }
 
 .box {
-    border: 2px solid black;
-    height: 100px;
-    width: 100px;
-    background-color: rgb(0, 0, 160);
-    color: aliceblue;
-    padding: 10px;
+	border: 2px solid black;
+	height: 100px;
+	width: 100px;
+	background-color: rgb(0, 0, 160);
+	color: aliceblue;
+	padding: 10px;
 }
 
 button:hover {
-    cursor: pointer;
+	cursor: pointer;
 }
 
 n {
-    color: rgb(255, 0, 0);
+	color: rgb(255, 0, 0);
 }
 
 .code {
-    border: 2px solid white;
-    width: 50vw;
-    padding: 10px;
-    overflow: auto;
+	border: 2px solid white;
+	width: 50vw;
+	padding: 10px;
+	overflow: auto;
 }
 
 .b-img {
-    position: relative;
+	position: relative;
 }
 
 .b-img::before {
-    content: "";
-    display: block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url(b-img1.jpeg), url(b-img2.jpg), url(b-img3.jpg);
-    background-size: cover;
-    background-position: center;
-    animation: change-background 9s infinite;
-    opacity: 0.5;
-    /* here we have to add this because the ::before pseudo-element has a higher z-index than the parent element*/
-    z-index: -1;
+	content: "";
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(b-img1.jpeg), url(b-img2.jpg), url(b-img3.jpg);
+	background-size: cover;
+	background-position: center;
+	animation: change-background 9s infinite;
+	opacity: 0.5;
+	/* here we have to add this because the ::before pseudo-element has a higher z-index than the parent element*/
+	z-index: -1;
 }
-
 
 /* Define the animation to change the background images */
 
-
 @keyframes change-background {
-    0% {
-        background-image: url(b-img1.jpeg), url(b-img2.jpg), url(b-img3.jpg);
-    }
+	0% {
+		background-image: url(b-img1.jpeg), url(b-img2.jpg), url(b-img3.jpg);
+	}
 
-    33% {
-        background-image: url(b-img2.jpg), url(b-img3.jpg), url(b-img1.jpeg);
-    }
+	33% {
+		background-image: url(b-img2.jpg), url(b-img3.jpg), url(b-img1.jpeg);
+	}
 
-    66% {
-        background-image: url(b-img3.jpg), url(b-img1.jpeg), url(b-img2.jpg);
-    }
+	66% {
+		background-image: url(b-img3.jpg), url(b-img1.jpeg), url(b-img2.jpg);
+	}
 
-    100% {
-        background-image: url(b-img1.jpeg), url(b-img2.jpg), url(b-img3.jpg);
-    }
+	100% {
+		background-image: url(b-img1.jpeg), url(b-img2.jpg), url(b-img3.jpg);
+	}
 }
